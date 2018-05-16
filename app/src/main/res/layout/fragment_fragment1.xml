@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.chathuranga.eco_water.Fragment1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_gravity="top"
+        android:layout_margin="90px"
+        android:gravity="center"
+        android:text="Depending on the data connection this has the accuracy of this would change at times. This really depends on the internet connection user has"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get the Statics" />
+
+
+</FrameLayout>
